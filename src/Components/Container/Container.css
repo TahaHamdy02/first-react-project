@@ -1,0 +1,17 @@
+  .main {
+      overflow: hidden;
+      /* For animation ScrollReveal */
+  }
+  
+  .container {
+      max-width: 1170px;
+      margin-right: 1rem;
+      margin-left: 1rem;
+  }
+  
+  @media screen and (min-width: 1024px) {
+      .container {
+          margin-left: auto;
+          margin-right: auto;
+      }
+  }

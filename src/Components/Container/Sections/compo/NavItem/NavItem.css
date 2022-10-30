@@ -1,0 +1,9 @@
+.nav__item {
+    transition: all .2s;
+    padding: .5rem;
+}
+
+.nav__item:hover {
+    background-color: rgba(0, 155, 229, 0.08);
+    border-radius: 7px;
+}

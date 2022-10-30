@@ -1,0 +1,21 @@
+.other__link,
+.nav__link {
+    margin: 0 calc(var(--main-distance)/10);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-sbold);
+    color: var(--text-color);
+    transition: color .4s;
+}
+
+.other__link:hover,
+.nav__link:hover {
+    color: var(--first-color);
+}
+
+.other__link {
+    cursor: pointer;
+}
+
+.nav__link svg {
+    margin-right: .5rem;
+}

@@ -1,0 +1,28 @@
+.status__container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.status__card {
+    border-radius: var(--main-border-radius);
+    font-style: italic;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--first-color-light);
+}
+
+.status__icons svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.status__number {
+    letter-spacing: -4px;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.status__statu {
+    color: var(--title-color-orange);
+    font-size: var(--h2-font-size);
+    font-weight: 700;
+}

@@ -1,0 +1,105 @@
+.Discount__container {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: center;
+}
+
+.Discount__container .left {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3rem 1.5rem 0;
+    text-align: center;
+    background: linear-gradient(to right, #7f66f0f5, #7f66f0f5), url(../../../../assets/images/dis/discount-background1.jpg);
+}
+
+.discount__title h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.discount__text {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.discount__img {
+    max-width: 300px;
+}
+
+.Discount__container .right {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+}
+
+form {
+    padding: 3rem 0;
+    min-width: 300px;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.label input {
+    all: unset;
+    height: 2.5rem;
+    border-bottom: 1px solid #7f66f0f5;
+    width: 100%;
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    padding-left: .5rem;
+}
+
+.label input::placeholder {
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+textarea {
+    all: unset;
+    padding: 1rem .5rem;
+    max-width: 350px;
+    background-color: transparent;
+    font-size: 1rem;
+    border: 1px solid #7f66f0f5;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px #121717 inset !important;
+    -webkit-box-shadow: 0 0 0 30px #121717 inset !important;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: var(--text-color)!important;
+}
+
+.discount__btn {
+    margin-top: 1.5rem;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--first-color);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: var(--main-transition)
+}
+
+.discount__btn:hover {
+    background-color: var(--first-color-alt);
+}

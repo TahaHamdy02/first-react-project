@@ -1,0 +1,84 @@
+.PricingPlan__container {
+    font-family: var(--body-font);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.PricingPlan__card {
+    text-align: center;
+    background-color: var(--first-color-light);
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.36);
+}
+
+.PricingPlan__type h2 {
+    font-size: 1.75rem;
+    color: var(--title-color);
+    font-weight: bold;
+}
+
+.PricingPlan__imgs .PricingPlan__img {
+    width: 7rem;
+    margin: 1.5rem;
+}
+
+.PricingPlan__price {
+    margin-bottom: 2rem;
+}
+
+.PricingPlan__price h1 {
+    font-size: 4rem;
+    color: var(--title-color-orange);
+    margin-bottom: .5rem;
+}
+
+.PricingPlan__info {
+    text-align: left;
+}
+
+.PricingPlan__info .info {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid #0e1a2b;
+}
+
+.PricingPlan__info .info svg {
+    margin: 0 .5rem;
+}
+
+.PricingPlan__btn .btn {
+    font-size: var(--h3-font-size);
+    display: block;
+    width: fit-content;
+    border: 2px solid var(--first-color-alt);
+    color: var(--first-color-alt);
+    margin: 30px auto 40px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: var(--main-transition);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.PricingPlan__btn .btn::before,
+.PricingPlan__btn .btn::after {
+    content: "";
+    width: 0;
+    height: 50%;
+    background-color: #f6f6f6;
+    position: absolute;
+    z-index: -1;
+    transition: var(--main-transition);
+}
+
+.PricingPlan__btn .btn::after {
+    right: 0;
+    bottom: 0;
+}
+
+.PricingPlan__btn .btn:hover {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+    color: var(--text-color);
+}
