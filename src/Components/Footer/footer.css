@@ -96,7 +96,7 @@ footer {
 .footer__img {
     width: 5rem;
     height: 5rem;
-    margin: 0 1rem 1rem 0;
+    margin: 0 .5rem .5rem 0;
     border: .4rem solid var(--first-color-alt);
 }
 
